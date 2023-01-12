@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&family=Rowdies&family=Source+Code+Pro:wght@400;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.cont{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(196, 184, 184);
+    height: 100%;
+    position:absolute;
+    font-family: 'Rowdies', cursive;
+    transition: transform 0.5s ease-in;
+}
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.main{
+    
+    width: 80vw;
+}
+.infocon{
+    /* background-color: rgb(205, 117, 227); */
+    width: 70vw;
+    height: 60vh;
+    margin: 120px auto;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.pic img{
+    width: 200px;
+    height: 60vh;
+      
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.hello{
+    font-size: 40px;
+
+}
+.naam{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    font-size: 20px;
+}
+.btn button{
+   
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: rgb(155, 199, 243);
+    color: white;
+    margin: 0px 4px;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    background-color:grey;
+    color: black;
+}
+.btn-primary{
+    font-size: 16px;
+    background-color:rgb(155, 199, 243);
+    border-radius: 4px;
+    padding: 4px;
+}
+.sidehide{
+    
+    transform: translate(-440px,0px);
+    position: absolute;
+    
+}
+.btn-sm{
+    font-size: 12px;
+    background-color:rgb(155, 199, 243);
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: 15px;
+}
+.contacform h2{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+.contacform{
+    padding-top: 140px;
+    padding: 0px 100px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.contacform form div{
+    padding: 12px 0px;
+    margin-top: 30px;
+}
+.form-text{
+    font-size: 12px;
+}
+
+.blogitem{
+    margin-left: 300px;
+    
+    /* margin: 20px; */
+}
+h1{
+padding: 40px;
+ display: flex;
+ justify-content: center;
+}
+.blogitem h2{
+    font-family: 'Source Code Pro', monospace;
+   
+}
+.devinfo h2{
+    margin-top: 20px;
+}
+.skill ul li{
+    list-style: none;
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hamb{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.crs{
+    margin-left: 140px;
+}
+
