@@ -151,4 +151,12 @@ padding: 40px;
 .crs{
     margin-left: 140px;
 }
+.other a:hover{
+    color: red;
+    
+}
 
+.other h3,.other a{
+    margin-left: 300px;
+    padding: 20px;
+}
